@@ -56,13 +56,13 @@ class Board extends Component
                 ++c;
             }
         }
-        if(c==0)
+        if(c===0)
         isWon=true;
         this.setState({board:board,hasWon:isWon})
     }   
     render()
     {
-        if(this.state.hasWon==true)
+        if(this.state.hasWon===true)
         return(<h1>Congratulations!! You have Won the Game</h1>)
         else{
         var tempBoard=[];
