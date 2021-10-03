@@ -1,0 +1,13 @@
+.Cell
+{
+    background-color: rgb(49, 48, 48);
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    transition: all 0.8s;
+
+}
+.LightOn
+{
+    background-color:skyblue;
+}
