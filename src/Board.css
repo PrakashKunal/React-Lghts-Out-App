@@ -1,7 +1,8 @@
 .Board
 {
-    margin: 0 auto;
+    height: 100%;
     text-align: center;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -9,7 +10,7 @@ table
 {
     justify-content:center ;
     text-align: center;
-    margin-left: 33vw;
+    margin: 0 auto;
 }
 tr
 {
@@ -18,4 +19,16 @@ tr
 h1{
     font-family: 'Roboto',sans-serif;
     font-weight: 300;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.gameboard
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
